@@ -19,3 +19,41 @@
     -   D means Drain
     -   B means Body or Bulk
 ![nmos image](images/nmos.png)
+•	Threshold Voltage (Vt)
+
+  - The 'Vgs' voltage at which 'Strong Inversion' occurs is known as Threshold Voltage (Vt)
+
+•	Concept of Strong Inversion
+
+  - The phenomenon at which a part of the P-substrate becomes N-substrate (due to the high Vgs value) is called 'Strong Inversion'
+
+•	Impact of Source-to-bulk Voltage (Vsb)
+
+  - In presence of substrate bias voltage 'Vsb', an additional potential is required for strong inversion to occur
+
+•	Threshold Voltage Equation
+
+![Threshold voltage equation](https://user-images.githubusercontent.com/89193562/132532135-3de1b633-d02f-48b0-b9c6-030c40f2c30a.JPG)
+
+where
+  - Vto is the Threshold Voltage when Vsb = 0
+  - Vto is a function of manufacturing voltage
+  - ϒ is the body effect coefficient and it expresses the impact of changes in body bias 'Vsb' (unit of ϒ is V^0.5)
+  - фf is the Fermi Potential
+
+•	Body Effect Coefficient expression
+
+![body effect coeffecient equation](https://user-images.githubusercontent.com/89193562/132532303-8b6fda87-3bc7-48ba-a99b-c7ffe5c4a969.JPG)
+
+where
+  - εsi is the relative permitivity of silicon (=11.7)
+  - NA is the doping concentration
+  - q is the charge of an electron
+  - Cox is the oxide capacitance
+
+•	Fermi Potential Equation
+
+![fermi potential equation](https://user-images.githubusercontent.com/89193562/132532339-de5b4411-323e-48b2-bb3d-68b20e54dcef.JPG)
+
+where
+  - ni is the intrinsic doping parameter for the substrate
