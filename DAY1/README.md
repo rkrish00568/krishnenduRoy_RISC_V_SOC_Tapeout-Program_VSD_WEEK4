@@ -18,3 +18,4 @@
     -   S means Source
     -   D means Drain
     -   B means Body or Bulk
+![nmos image](images/nmos.png)
