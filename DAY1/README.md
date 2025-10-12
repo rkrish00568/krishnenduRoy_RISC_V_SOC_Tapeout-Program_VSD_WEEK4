@@ -35,25 +35,14 @@
 
 ![Threshold voltage equation](images/thrs.png)
 
-where
-  - Vto is the Threshold Voltage when Vsb = 0
-  - Vto is a function of manufacturing voltage
-  - ϒ is the body effect coefficient and it expresses the impact of changes in body bias 'Vsb' (unit of ϒ is V^0.5)
-  - фf is the Fermi Potential
-
 •	Body Effect Coefficient expression
 
 ![body effect coeffecient equation](images/body.png)
 
-where
-  - εsi is the relative permitivity of silicon (=11.7)
-  - NA is the doping concentration
-  - q is the charge of an electron
-  - Cox is the oxide capacitance
+
 
 •	Fermi Potential Equation
 
 ![fermi potential equation](images/fermi.png)
 
-where
-  - ni is the intrinsic doping parameter for the substrate
+
