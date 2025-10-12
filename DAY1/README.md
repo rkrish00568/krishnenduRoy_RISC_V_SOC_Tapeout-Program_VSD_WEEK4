@@ -33,7 +33,7 @@
 
 •	Threshold Voltage Equation
 
-![Threshold voltage equation](https://user-images.githubusercontent.com/89193562/132532135-3de1b633-d02f-48b0-b9c6-030c40f2c30a.JPG)
+![Threshold voltage equation](thrs.png)
 
 where
   - Vto is the Threshold Voltage when Vsb = 0
@@ -43,7 +43,7 @@ where
 
 •	Body Effect Coefficient expression
 
-![body effect coeffecient equation](https://user-images.githubusercontent.com/89193562/132532303-8b6fda87-3bc7-48ba-a99b-c7ffe5c4a969.JPG)
+![body effect coeffecient equation](body.png)
 
 where
   - εsi is the relative permitivity of silicon (=11.7)
@@ -53,7 +53,7 @@ where
 
 •	Fermi Potential Equation
 
-![fermi potential equation](https://user-images.githubusercontent.com/89193562/132532339-de5b4411-323e-48b2-bb3d-68b20e54dcef.JPG)
+![fermi potential equation](fermi.png)
 
 where
   - ni is the intrinsic doping parameter for the substrate
