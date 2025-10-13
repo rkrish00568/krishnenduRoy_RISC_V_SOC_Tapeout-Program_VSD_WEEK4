@@ -47,3 +47,12 @@
 
 
 ## Part 2: NMOS Resistive region and Saturation region of operation
+
+-   It is also known as the Linear Region of operation
+-   Since, Vgs=Vt, the changes that occur at different voltages of 'Vgs>Vt' are observed
+-   In the channel, induced charge (Qi) α (Vgs-Vt)
+-   The analysis is performed at Vgs=1V and a small (~0) Vds. Assume Vt=0.45V
+-   In absence of Vds, the voltage across the n-channel was constant byt with application of Vds it is no more constant.
+-   Let the effective channel length be L and 'x' axis be along the channel length and 'y' axis be perpendicular to the channel length
+-   Let V(x) be the voltage at any point 'x' along the channel
+-   Now, Vgs-V(x) is the gate-to-channel voltage at that point
