@@ -56,3 +56,22 @@
 -   Let the effective channel length be L and 'x' axis be along the channel length and 'y' axis be perpendicular to the channel length
 -   Let V(x) be the voltage at any point 'x' along the channel
 -   Now, Vgs-V(x) is the gate-to-channel voltage at that point
+-   Therefore, in the channel, induced charge at any point 'x' Qi(x) α - ((Vgs-V(x))-Vt)
+
+• The two kinds of current: Drift current and Diffusion current
+
+-   Drift current is the current due to the potential difference
+-   Diffusion current is the current due to difference in carrier concentration
+
+• The drift current (Id) = velocity of charge carriers \* available charge over the channel width
+
+
+
+-   The term µn.Cox is denoted by kn' and kn' is known as process transconductance
+-   kn'.(W/L) is denoted by kn and kn is also known as gain factor
+
+• Condition on Vds for the MOSFET to be in linear/resistive region or saturation/pinch-off region
+
+-   When Vds <= (Vgs-Vt), the MOSFET is in linear region of operation
+-   For this region, Id=kn.(Vgs-Vt).Vds as (Vds^2)/2 is a very small amount in this case
+-   Vdds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation
