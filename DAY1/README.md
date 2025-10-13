@@ -75,3 +75,20 @@
 -   When Vds <= (Vgs-Vt), the MOSFET is in linear region of operation
 -   For this region, Id=kn.(Vgs-Vt).Vds as (Vds^2)/2 is a very small amount in this case
 -   Vdds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation
+
+• Dependance of Id on Vds in pinch-off region
+
+-   The chanel voltage is denoted with Vgs-Vds
+-   Pinch-off condition is when Vgs-Vds=Vt
+-   When the Pinch-off phenomenon is started, the channel begins to disappear. Basically, the channel starts to disappear only from the Drain side acquiring a triangular shape.
+-   When Vgs-Vds<Vt, there is no channel present near the Drain terminal
+-   Id becomes (kn/2).(Vgs-Vt)^2
+    
+-   It looks like a perfect current source i.e current is constant. It is not true because effective conductive channel length is modulated by applied Vds.
+    
+-   As Vds increases, the depletion region at the drain terminal increases and hence, the effective channel length decreases.
+    
+-   Now the Drain current equation becomes:
+ ![current equation](images/curr.png)
+ 
+- Here, λ is the channel length modulation
