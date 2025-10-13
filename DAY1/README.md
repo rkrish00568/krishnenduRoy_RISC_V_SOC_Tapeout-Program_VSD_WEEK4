@@ -46,3 +46,4 @@
 ![fermi potential equation](images/fermi.png)
 
 
+## Part 2: NMOS Resistive region and Saturation region of operation
