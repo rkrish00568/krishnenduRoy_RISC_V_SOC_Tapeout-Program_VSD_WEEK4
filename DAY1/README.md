@@ -65,7 +65,7 @@
 
 • The drift current (Id) = velocity of charge carriers \* available charge over the channel width
 
-
+![current equation](images/id.png)
 
 -   The term µn.Cox is denoted by kn' and kn' is known as process transconductance
 -   kn'.(W/L) is denoted by kn and kn is also known as gain factor
