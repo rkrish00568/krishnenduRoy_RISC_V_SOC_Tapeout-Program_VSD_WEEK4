@@ -92,3 +92,6 @@
  ![current equation](images/curr.png)
  
 - Here, λ is the channel length modulation
+  
+
+## Part 3: Introduction to spice
