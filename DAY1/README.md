@@ -95,3 +95,43 @@
   
 
 ## Part 3: Introduction to spice
+-   There are five types of process corners available for use:
+    -   tt -> Typical corner
+    -   sf -> Slow-fast corner
+    -   ff -> Fast-fast corner
+    -   ss -> Slow-slow corner
+    -   fs -> Fast-slow corner
+-   In the Lab activity, tt corner is used. The corner can be changed by changing the word 'tt' in the line `.lib "sky130_fd_pr/models/sky130.lib.spice" tt` with any valid process corner
+
+### Code:
+```
+*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=5 l=2
+R1 n1 in 55
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+```
+
+![current equation](images/plot1.png)
+![current equation](images/plot11.png)
