@@ -135,3 +135,8 @@ setplot dc1
 
 ![current equation](images/plot1.png)
 ![current equation](images/plot11.png)
+ - the plot shows Id vs Vds for different values of Vgs.
+ - as we increase the Vgs the current value decreases and for Vgs<0.55 the current is zero
+ - The VGS​ determines the conductivity of the channel. A higher VGS​ creates a thicker channel, allowing more current (ID​) to flow. This results in the family of distinct curves
+ - When VDS​ is small, the entire channel is wide. Increasing VDS​ directly increases the electric field driving the electrons. Consequently, the current rises almost linearly with VDS​, and the device acts like a resistor.
+ - As VDS​ increases further, the voltage near the drain terminal reduces the effective Gate-to-Channel voltage, causing the channel to pinch off (narrow down) near the drain. Once pinched off, any further increase in VDS​ cannot significantly increase the flow of electrons, causing the current (ID​) to level off and become constant. The device acts as a current source.
