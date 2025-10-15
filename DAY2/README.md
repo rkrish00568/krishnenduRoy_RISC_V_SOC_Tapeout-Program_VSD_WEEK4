@@ -72,7 +72,7 @@ setplot dc1
 ```
 ![photo](images/Id-vds.png)
 ![photo](images/vds.png)
-
+ - For short-channel MOSFETs, the Id–Vds curve shows early and incomplete saturation due to velocity saturation making the saturation region less flat compared to long-channel devices. also it becomes linear for high value of vgs . It remains quadratic for small value od Vgs
 
 ## Lab2:
 ```
@@ -106,3 +106,5 @@ setplot dc1
 ```
 ![photo](images/Id-vgs.png)
 ![photo](images/vgs.png)
+ - It shows the Id-Vgs curve for short channel mos. we can see that the equation is linear for high value of Vgs. This can also be used to find the threshold value of the mos by finding the slope of the linear part which here comes to be about 0.77V.
+ - In short-channel MOSFETs, the Id–Vgs curve appears more linear at high Vgs because velocity saturation occurs. As the electric field near the channel increases, carrier velocity reaches its saturation limit and no longer increases proportionally with Vgs. This causes the drain current to grow almost linearly with Vgs instead of quadratically as in long-channel devices.
