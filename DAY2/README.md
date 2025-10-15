@@ -70,7 +70,10 @@ setplot dc1
 
 .end
 ```
-![photo](images/Id-vds for diff vgs.png)
+![photo](images/Id-vds.png)
+![photo](images/vds.png)
+
+
 ## Lab2:
 ```
 *Model Description
@@ -101,3 +104,5 @@ setplot dc1
 
 .end
 ```
+![photo](images/Id-vgs.png)
+![photo](images/vgs.png)
