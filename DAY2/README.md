@@ -28,7 +28,7 @@
 -   Let's call (Vgs-Vt)=Vgt
     
 -   The equation of Id for long channel and short channel devices
-![euation](images/form.png)
+![euation](DAY2/images/Id-vds for diff vgs.png)
 -   Vdsat is a technology parameter saturation voltage i.e voltage at which device velocity saturates and is independent of Vgs or Vds
     
 -   The various modes when the value of Vmin is different
