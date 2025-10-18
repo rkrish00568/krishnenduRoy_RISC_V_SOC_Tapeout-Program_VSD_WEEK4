@@ -144,3 +144,11 @@ The snap shot of the output window for performing the transient analysis
 | (Wp/Lp) | 3.(Wn/Ln) | 57pS | 80pS | 1.25V |
 | (Wp/Lp) | 4.(Wn/Ln) | 45pS | 84pS | 1.35V |
 | (Wp/Lp) | 5.(Wn/Ln) | 37pS | 88pS | 1.4V |
+
+
+-   We can make some conclusions from the above table:
+    
+    -   When `(Wp/Lp) = 2.(Wn/Ln)`, there is an approximately equal rise-fall delay
+    -   Due to the equal rise-fall delay, `(Wp/Lp) = 2.(Wn/Ln)` create typical characteristics for a clock inverter/buffer
+    -   The conditions other than `(Wp/Lp) = 2.(Wn/Ln)` can still be used as regular inverters/buffers and these can be preferred for data path
+    -   Switching Threshold for `(Wp/Lp) = 2.(Wn/Ln)` and `(Wp/Lp) = 3.(Wn/Ln)` is very small. Similarly, switching threshold for `(Wp/Lp) = 4.(Wn/Ln)` and `(Wp/Lp) = 5.(Wn/Ln)` is also very small
