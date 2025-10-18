@@ -108,3 +108,28 @@ setplot dc1
 ![photo](images/vgs.png)
  - It shows the Id-Vgs curve for short channel mos. we can see that the equation is linear for high value of Vgs. This can also be used to find the threshold value of the mos by finding the slope of the linear part which here comes to be about 0.77V.
  - In short-channel MOSFETs, the Id–Vgs curve appears more linear at high Vgs because velocity saturation occurs. As the electric field near the channel increases, carrier velocity reaches its saturation limit and no longer increases proportionally with Vgs. This causes the drain current to grow almost linearly with Vgs instead of quadratically as in long-channel devices.
+
+
+## Part 2: CMOS voltage transfer characteristics (VTC)
+-   Transistor as a switch
+    
+    -   With infinite 'Off' resistance when |Vgs|<|Vt|
+    -   With finite 'On' resistance when |Vgs|>|Vt|
+-   The working of CMOS inverter
+    
+-   What happens when Vin is ‘high’ and equal to ‘vdd’
+    
+    -   PMOS turns 'OFF'
+    -   NMOS turns 'ON'
+-   What happens when Vin is ‘low’ and equal to ‘0V’
+    
+    -   PMOS turns 'ON'
+    -   NMOS turns 'OFF'
+-   The flow of current when Vin is ‘high’ and when Vin is ‘low’
+    
+-   When Vin=Vdd
+    
+    -   Direct path exists between Vout and Vss resulting in Vout=0V
+-   When Vin=0V
+    
+    -   Direct path exists between Vdd and Vout, resulting in Vout=Vdd
