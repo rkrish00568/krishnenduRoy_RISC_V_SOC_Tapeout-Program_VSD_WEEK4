@@ -111,3 +111,24 @@ The snap shot of the output window for performing the transient analysis
     -   Now, left click on the falling edge of the output curve at (Vdd/2) to get a point x0,y0 on the terminal.
     -   Similarly, get the point at (Vdd/2) for rising edge of the input curve.
     -   The difference between the x-coordinate of the falling edge of the output curve and the rising edge of the input curve is the fall delay.
+## Part 2: Static Behavior Evaluation - CMOS Inverter Robustness: Switching threshold
+-   CMOS inverter is a robust device because the shape of it's input versus output curve remains the same for all different values of (W/L) ratios.
+    
+-   Static Behavior Evaluation: CMOS Inverter Robustness
+    
+    -   Switching Threshold
+    -   Noise Margin
+    -   Power Supply Variation
+    -   Device Variation
+-   Switching Threshold (Vm)
+    
+    -   It is the point where Vin = Vout
+        
+    -   Graphical method to find Vm is to draw a line across the graph of output voltage to input voltage of a CMOS inverter starting at the origin and ending at the opposite diagonal of the plot (basically a line with a 45 degree inclination with the x-axis). Now, the x-coordinate of the point of intersection of this line and the curve is the switching threshold.
+        
+    -   Vm when (Wp/Lp) is 1.5 is approximately equal to 0.98V and when (Wp/Lp) is 3.75 it is approximately equal to 1.2V
+        
+    -   Wp and Lp in the above section are Width of PMOS channel and Length of PMOS channel
+        
+    -   At Vm, both PMOS and NMOS are turned 'ON' because Vgs almost crossed the threshold region for both of them.
+    -   When Wp/Lp is increased, the rise delay is isgnificantly reduced because time required for the output capacitor to charge decreases significantly and the reason is the availability of a bigger area to charge the capacitor.
