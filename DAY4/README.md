@@ -2,6 +2,18 @@
 
 ##  Part 1: Static Behavior Evaluation - CMOS Inverter Robustness: Noise Margin
 
+* The noise margins of the inverter at different values of Wp/Lp were observed and they were as follows:
+
+| (Wp/Lp) | x.(Wn/Ln) | NMh | NMI | Vm |
+| :---: | :---: | :---: | :---: | :---: |
+| (Wp/Lp) | 1.(Wn/Ln) | 0.3 | 0.3 | 0.99V |
+| (Wp/Lp) | 2.(Wn/Ln) | 0.35 | 0.3 | 1.2V |
+| (Wp/Lp) | 3.(Wn/Ln) | 0.4 | 0.3 | 1.25V |
+| (Wp/Lp) | 4.(Wn/Ln) | 0.42 | 0.27 | 1.35V |
+| (Wp/Lp) | 5.(Wn/Ln) | 0.42 | 0.27 | 1.4V |
+
+-   A few conclusions can be inferred from the above table: - When `(Wp/Lp) = 2.(Wn/Ln)` there is a rise at the NMh because PMOS is responsible for holding the charges on the capacitance. When the size of PMOS is increased, a low-resistance path from supply to the capacitance is formed and as a result of that, the capacitance is able to retain the charge for a longer amount of time resulting in an increased NMh. - When `(Wp/Lp) = 4.(Wn/Ln)` there is a drop at the NMl because the NMOS has now become weaker than the PMOS - When `(Wp/Lp) = 5.(Wn/Ln)` the NMh almost comes to a static point. - In the above table, NMl is not affected much but NMh has increased by 120mV but this range is still acceptable and this proves the CMOS inverter robustness with respect to the Noise Margin. - Finally, the areas that can be used for digital and analog applications are stated in the figure below:
+
 ### Lab Activity
 ```
 *Model Description
