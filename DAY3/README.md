@@ -132,3 +132,15 @@ The snap shot of the output window for performing the transient analysis
         
     -   At Vm, both PMOS and NMOS are turned 'ON' because Vgs almost crossed the threshold region for both of them.
     -   When Wp/Lp is increased, the rise delay is isgnificantly reduced because time required for the output capacitor to charge decreases significantly and the reason is the availability of a bigger area to charge the capacitor.
+      
+
+
+* We experimented with the sizes of the PMOS with respect to the sizes of NMOS and came up with the following conclusions
+
+| (Wp/Lp) | x.(Wn/Ln) | Rise Delay | Fall Delay | Vm |
+| :---: | :---: | :---: | :---: | :---: |
+| (Wp/Lp) | 1.(Wn/Ln) | 148pS | 71pS | 0.99V |
+| (Wp/Lp) | 2.(Wn/Ln) | 80pS | 76pS | 1.2V |
+| (Wp/Lp) | 3.(Wn/Ln) | 57pS | 80pS | 1.25V |
+| (Wp/Lp) | 4.(Wn/Ln) | 45pS | 84pS | 1.35V |
+| (Wp/Lp) | 5.(Wn/Ln) | 37pS | 88pS | 1.4V |
